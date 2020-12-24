@@ -1,10 +1,11 @@
-# 21600223_Woonseon_Yu-hw5(Discrete-mathematics)
+# 21600223_WoonseonYu_hw5(Discrete-mathematics)
 
 hw5
 
 dijkstra.c source code
 
-'''c
+```c
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -127,4 +128,4 @@ int main(int argc, char **args)
     graph_free(g);
     return 0;
 }
-'''
+```
