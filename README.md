@@ -2,14 +2,13 @@
 
 hw5
 
-dijkstra.c
-'''
+dijkstra.c source code
+
+'''c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "graph.h"
-
-/*TODO: you can add functions as you want */
 
 void d_matrix(graph_t *g)
 {
