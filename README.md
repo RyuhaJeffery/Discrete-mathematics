@@ -63,7 +63,8 @@ int bfs(graph_t *g, int start)
     int queue[64];
     int head = 0;
     int tail = 0;
-    int length[64] int visited[64];
+    int length[64];
+    int visited[64];
 
     memset(visited, 0, sizeof(int) * 64);
     for (int i = 0; i < g->n_vertices; i++)
